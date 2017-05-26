@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+    border: 1px solid #000;
+    width: 440px;
+    padding-top: 10px;
+    position: relative;
+}
+
+/*Entire table*/
+
+table {
+  padding: 10px;
+}
+
+/*Caption area*/
+
+caption {
+  text-align: left;
+  padding-left: 15px;
+}
+
+caption:first-of-type {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+caption:nth-child(2) {
+  margin-top: 10px;
+}
+
+/*Amount per servings and calories*/
+
+#amount th:first-of-type {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-top: 10px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#calories th {
+  text-align: left;
+}
+
+#calories th:nth-child(2) {
+  position: absolute;
+  right: 15px;
+  font-weight: normal;
+}
+
+#calories th span {
+  font-weight: normal;
+}
+
+/*Daily value*/
+
+#daily-value th:first-of-type {
+    border-top: 4px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-align: right;
+    padding: 5px 0;
+}
+
+/*Global td styles */
+
+td {
+  font-weight: bold;
+}
+
+td span {
+  font-weight: normal;
+}
+
+td:last-of-type {
+  position: absolute;
+  right: 15px;
+}
+
+/*Total fat*/
+
+#fat td:first-child {
+  /*border-bottom: 1px solid #000;*/
+}
+
+td:first-of-type:after {
+content: "";
+  border-bottom:1px solid #000;
+  width:100%;
+  display:block;
+  padding: 2px 0;
+  margin-left: auto;
+}
+
+#saturated td, #trans td {
+  padding-left: 15px;
+}
+
+#carb *:after {
+content: "";
+  width:90%;
+  margin-left: auto;
+}
