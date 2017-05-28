@@ -20,7 +20,7 @@ OR...
 
 ## Screenshot of Website
 
-![screenshot of project](https://github.com/avocadobravado/strangelove/blob/master/scs.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/nutrition-facts/blob/master/scs.png?raw=true)
 
 ## How to Use
 
