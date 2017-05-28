@@ -41,10 +41,9 @@ OR...
 
 * HTML
 * CSS
-* Font Awesome
 
 ## License
 
 This project is licensed under the MIT License
 
-**_Rose Sponseller and Daniel Lopez_** Copyright (c) 2017
+**_Rose Sponseller** Copyright (c) 2017
